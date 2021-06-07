@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-family: 'Roboto';
+}
+/* ======== CABECERA ==== */
+header{
+    background-color: #EAC926;
+    text-align: center;
+}
+ /*== LOGO - BUSCAR */
+
+.logo-buscar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+
+}
+
+.buscar{
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+/*== COPY y BURGER*/
+.copy{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.burger{
+    background: #03264C;
+    color: white;
+    font-size: 20px;
+    padding: 8px 17px;
+    margin: 25px 0px 15px 0px;
+    border: 1px solid #03264C;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*== NAV */
+
+.nav{
+    display: none;
+}
